@@ -10,6 +10,18 @@ def string_length(string):
 print(string_length("Hello World"))
 
 
+def string_length(string):
+    len = 0
+    for i in string:
+        len += 1
+    return len
+
+
+
+
+
+
+
 """ 2. Program to count number of characters in a String """
 
 def char_count(string):
@@ -21,6 +33,20 @@ def char_count(string):
             count += 1
     return count
 print(char_count("W3 Resources 123"))
+
+
+def character_count(string):
+    counter = 0
+    for i in string:
+        if (i == ' ') or (i == ','):
+            count += 0
+        else:
+            count += 1
+
+
+
+print(character_count("Hello guys, We are moving into the next level soon. Watch Out on our next move"))
+
 
 
 """ 3. Program to filter the positive numbers from a list """
@@ -67,6 +93,8 @@ print(swap_strings(["john", "Bryan"]))
 """ 6. Program to add ing at the end of a given string(length should be at least 3). if the given string already ends with ing
 then add 'ly' instead. if the string length of the given string is less than 3, leave it unchanged.
 """
+
+
 
 
 
